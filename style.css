@@ -10,7 +10,8 @@ html,body{
 	width:100%;
 }
 body{
-	background:#D3D3D3;
+	 	background:#D3D3D3;
+	 	font-size:arial, sans-serif;
 }
 .cubo{
 	width:90px;
@@ -31,6 +32,7 @@ section{
 .sec1{
 	width:60%;
 }
+
 .sec1 p{
 	font-size:15px;
 }
@@ -63,43 +65,64 @@ section{
 .sec3 img{
 	width:49%;
 }
+.sec3 p{
+	font-family:"times New Roman - italico";
+	font-size:20px;
+}
 .sec3 p:last-child{
 	text-align:right;
+	font-family:arial;
 }
 .sec4{
 	width:60.10%;
 	display:flex;
 	flex-wrap:wrap;
+
 }	
 .sec4 h2{
 	font-size:17px;
 	margin-bottom:15px;
 }
+.sec4 h3{
+	font-size:13px;
+	margin-bottom:30px;
+}
+.sec4 div{
+	width:46%;
+	margin:0 1%;
+ }
 .sec4 div img{
 	width:70%;
-
+	position:relative;
+	top:0;
+	left:30px;
 }
 .sec4 div h3{
 	margin-bottom:0;
+	position:relative;
+	top:0;
+	left:20px;
 }
 .sec4 div ul{
-	position:relative;top:0px;  left:5px;
 	list-style:inside none;
 	padding:0;
 	margin-top:2px;
 }
 .sec4 div ul li{
-	font-size:11px;
+	font-size:13px;
+	position:relative;
+	top:0;
+	left:20px;
 }
 .sec4 div ul li:before{
 	content:"- ";
 }
 .sec5{
-	width:44.95%;
+	width:50%;
 	display:flex;
 	flex-wrap:wrap;
 }
-.sec5 h3{
+.sec5 h2{
 	margin-top:5px;
 	margin-bottom:0;
 	font-size:15px;
@@ -109,7 +132,7 @@ section{
 	font-size:15px;
 }
 .sec6{
-	width:26%;
+	width:26.55%;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
@@ -122,13 +145,13 @@ section{
 	margin-bottom:0px;
 }
 .sec6 img{
-	width:85%;
+	width:70%;
 }
 .sec7{
-	width:17.60%;
+	width:12%;
 }
-.sec7 h3{
-	margin-top:5px;
+.sec7 h2{
+	margin-top:8px;
 	font-size:15px;	
 }
 .sec7 ul{
@@ -143,5 +166,9 @@ section{
 	margin-bottom:8px;
 }
 .sec7 ul li:before{
-	content:"- ";
+	content:"• ";
+}
+@font-face{
+	font-family:"times New Roman - italico";
+	src: url(fonts/timesi.ttf);
 }
